@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78fdd5c-611a-45f9-8ddd-eed67c97faa0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/app-header/app-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/app-header/app-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/app-header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/app/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/item-status-filter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/item-status-filter/item-status-filter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/item-status-filter/item-status-filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/search-panel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/search-panel/search-panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/search-panel/search-panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/todo-list-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/todo-list-item/todo-list- item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/todo-list-item/todo-list-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/todo-list/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/todo-list/todo-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/todo-list/todo-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/item-add-form/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/item-add-form/item-add-form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/item-add-form/item-add-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/app-header/app-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/app-header/app-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/item-status-filter/item-status-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/item-status-filter/item-status-filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/todo-list-item/todo-list- item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/todo-list-item/todo-list- item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/todo-list-item/todo-list-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/todo-list-item/todo-list-item.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/todo-list/todo-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/todo-list/todo-list.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -65,7 +57,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -131,7 +123,14 @@
       <option name="presentableId" value="Default" />
       <updated>1576591520202</updated>
       <workItem from="1576591521756" duration="28234000" />
-      <workItem from="1577698871352" duration="8382000" />
+      <workItem from="1577698871352" duration="25323000" />
+      <workItem from="1578303110962" duration="5565000" />
+      <workItem from="1578650506179" duration="2930000" />
+      <workItem from="1578667786611" duration="646000" />
+      <workItem from="1578668911126" duration="1060000" />
+      <workItem from="1580725552438" duration="8775000" />
+      <workItem from="1580819660310" duration="7844000" />
+      <workItem from="1581077623701" duration="3984000" />
     </task>
     <task id="LOCAL-00001" summary="first commit create a  skeleton">
       <created>1577707587342</created>
@@ -148,6 +147,16 @@
   </component>
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit create a  skeleton" />
@@ -171,45 +180,57 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577717095416" />
-    <state width="1899" height="252" key="GridCell.Tab.0.bottom" timestamp="1577706387425">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1581086164816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577706387425" />
-    <state width="1899" height="252" key="GridCell.Tab.0.center" timestamp="1577706387425">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1581086164816" />
+    <state width="1899" height="118" key="GridCell.Tab.0.bottom" timestamp="1581086199733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577706387425" />
-    <state width="1899" height="252" key="GridCell.Tab.0.left" timestamp="1577706387425">
+    <state width="1899" height="118" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1581086199733" />
+    <state width="1899" height="118" key="GridCell.Tab.0.center" timestamp="1581086199733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577706387425" />
-    <state width="1899" height="252" key="GridCell.Tab.0.right" timestamp="1577706387425">
+    <state width="1899" height="118" key="GridCell.Tab.0.center/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1581086199733" />
+    <state width="1899" height="118" key="GridCell.Tab.0.left" timestamp="1581086199733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="252" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577706387425" />
+    <state width="1899" height="118" key="GridCell.Tab.0.left/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1581086199733" />
+    <state width="1899" height="118" key="GridCell.Tab.0.right" timestamp="1581086199733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="118" key="GridCell.Tab.0.right/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1581086199733" />
     <state x="742" y="147" key="RollbackChangesDialog" timestamp="1577716557527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="147" key="RollbackChangesDialog/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577716557527" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1577717059845">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1581086051070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577717059845" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1581086051070" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577707688113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577707688113" />
-    <state x="832" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577717260327">
+    <state x="832" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580726311837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="832" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577717260327" />
+    <state x="832" y="349" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1580726311837" />
+    <state x="639" y="263" width="642" height="514" key="find.popup" timestamp="1580820006423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="639" y="263" width="642" height="514" key="find.popup/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1580820006423" />
     <state x="728" y="308" key="git4idea.merge.GitPullDialog" timestamp="1577717256603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="728" y="308" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577717256603" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577197146085">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1578654058356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1577197146085" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1578654058356" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1580820477713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1440.502.1440.860@0.0.1920.1040" timestamp="1580820477713" />
   </component>
 </project>
