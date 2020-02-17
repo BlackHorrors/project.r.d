@@ -3,7 +3,7 @@ import TodoListItem from "../todo-list-item/todo-list- item";
 import './todo-list.css'
 
 const TodoList = ({ todos , onDeleted,
-                      onToggleDone,onToggleImportant
+                      onToggleDone , onToggleImportant
 }) => {
     const elements = todos.map((items) => {
         const {id , ...itemProps} = items ;
@@ -12,7 +12,7 @@ const TodoList = ({ todos , onDeleted,
                 <TodoListItem {...itemProps}
                 onDeleted = { ()=> onDeleted(id)}
                               onToggleImportant = {() =>onToggleImportant(id)}
-                              onToggleDone
+                              onToggleDone  = {() => onToggleDone (id)}
                 />
             </li>
         );
